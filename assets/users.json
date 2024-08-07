@@ -1,0 +1,17 @@
+[
+    {
+        "username": "CybogrK27",
+        "email": "slenderstalin@gmail.com",
+        "password": "password123",
+        "orders":{
+            "order1":{
+                "code": "ORD-001",
+                "items": {
+                    "order_detail": {
+                        "product_name": "papishawarma"
+                    }
+                }
+            }
+        }
+    }
+]
