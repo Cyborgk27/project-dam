@@ -34,6 +34,7 @@ class _LoginFormState extends State<LoginForm> {
           ),
           const SizedBox(height: 15),
           TextField(
+            obscureText: true,
             decoration: StyleInputDecoration.inputDecoration(
                 hintText: '********',
                 labelText: 'Password',
@@ -45,7 +46,7 @@ class _LoginFormState extends State<LoginForm> {
               Navigator.pushReplacementNamed(context, 'navbar');
               setState(() {});
             },
-            child: const Text('Sign Ing'),
+            child: const Text('Sign In'),
           ),
         ],
       ),
